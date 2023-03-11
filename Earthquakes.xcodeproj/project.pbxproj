@@ -12,6 +12,8 @@
 		3B4402FE29A2A2F5003CAB42 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3B4402FD29A2A2F5003CAB42 /* Assets.xcassets */; };
 		3B44030129A2A2F5003CAB42 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3B44030029A2A2F5003CAB42 /* Preview Assets.xcassets */; };
 		3B44030829A2A30A003CAB42 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 3B44030729A2A30A003CAB42 /* README.md */; };
+		3BA42AFA29BCBEDA00A05D40 /* Quake.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BA42AF929BCBEDA00A05D40 /* Quake.swift */; };
+		3BA42AFC29BCBFAB00A05D40 /* QuakeError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BA42AFB29BCBFAB00A05D40 /* QuakeError.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -21,6 +23,8 @@
 		3B4402FD29A2A2F5003CAB42 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		3B44030029A2A2F5003CAB42 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		3B44030729A2A30A003CAB42 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		3BA42AF929BCBEDA00A05D40 /* Quake.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Quake.swift; sourceTree = "<group>"; };
+		3BA42AFB29BCBFAB00A05D40 /* QuakeError.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuakeError.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,6 +59,8 @@
 			isa = PBXGroup;
 			children = (
 				3BA42AF629BB6D8B00A05D40 /* Application */,
+				3BA42AF729BCBEAE00A05D40 /* Model */,
+				3BA42AF829BCBEBA00A05D40 /* View */,
 				3BA42AF529BB6D8900A05D40 /* Resources */,
 				3BA42AF429BB6D8600A05D40 /* Supporting Files */,
 				3B4402FF29A2A2F5003CAB42 /* Preview Content */,
@@ -92,6 +98,22 @@
 				3B4402FB29A2A2F2003CAB42 /* ContentView.swift */,
 			);
 			path = Application;
+			sourceTree = "<group>";
+		};
+		3BA42AF729BCBEAE00A05D40 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				3BA42AF929BCBEDA00A05D40 /* Quake.swift */,
+				3BA42AFB29BCBFAB00A05D40 /* QuakeError.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		3BA42AF829BCBEBA00A05D40 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -188,7 +210,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3BA42AFC29BCBFAB00A05D40 /* QuakeError.swift in Sources */,
 				3B4402FC29A2A2F2003CAB42 /* ContentView.swift in Sources */,
+				3BA42AFA29BCBEDA00A05D40 /* Quake.swift in Sources */,
 				3B4402FA29A2A2F2003CAB42 /* EarthquakesApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
