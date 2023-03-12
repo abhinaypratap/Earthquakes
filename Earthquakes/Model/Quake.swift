@@ -7,6 +7,7 @@ struct Quake {
     let time: Date
     let code: String
     let detail: URL
+    var location: QuakeLocation?
 }
 
 extension Quake: Identifiable {
