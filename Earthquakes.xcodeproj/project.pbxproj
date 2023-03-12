@@ -16,6 +16,7 @@
 		3BA42AFC29BCBFAB00A05D40 /* QuakeError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BA42AFB29BCBFAB00A05D40 /* QuakeError.swift */; };
 		3BA42B0429BCC2DE00A05D40 /* EarthquakesTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BA42B0329BCC2DE00A05D40 /* EarthquakesTests.swift */; };
 		3BA42B0B29BCC36600A05D40 /* TestData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BA42B0A29BCC36600A05D40 /* TestData.swift */; };
+		3BA42B0D29BD902100A05D40 /* GeoJSON.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BA42B0C29BD902100A05D40 /* GeoJSON.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +41,7 @@
 		3BA42B0129BCC2DE00A05D40 /* EarthquakesTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = EarthquakesTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		3BA42B0329BCC2DE00A05D40 /* EarthquakesTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EarthquakesTests.swift; sourceTree = "<group>"; };
 		3BA42B0A29BCC36600A05D40 /* TestData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestData.swift; sourceTree = "<group>"; };
+		3BA42B0C29BD902100A05D40 /* GeoJSON.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GeoJSON.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -129,6 +131,7 @@
 			children = (
 				3BA42AF929BCBEDA00A05D40 /* Quake.swift */,
 				3BA42AFB29BCBFAB00A05D40 /* QuakeError.swift */,
+				3BA42B0C29BD902100A05D40 /* GeoJSON.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -273,6 +276,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3BA42B0D29BD902100A05D40 /* GeoJSON.swift in Sources */,
 				3BA42AFC29BCBFAB00A05D40 /* QuakeError.swift in Sources */,
 				3B4402FC29A2A2F2003CAB42 /* ContentView.swift in Sources */,
 				3BA42AFA29BCBEDA00A05D40 /* Quake.swift in Sources */,
