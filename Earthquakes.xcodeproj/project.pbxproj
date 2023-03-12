@@ -35,6 +35,7 @@
 		3BA42B3129BDD37800A05D40 /* NSCache+Subscript.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BA42B3029BDD37800A05D40 /* NSCache+Subscript.swift */; };
 		3BA42B3329BDE6D500A05D40 /* Quake+Preview.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BA42B3229BDE6D500A05D40 /* Quake+Preview.swift */; };
 		3BA42B3529BDE79200A05D40 /* QuakeDetail.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BA42B3429BDE79200A05D40 /* QuakeDetail.swift */; };
+		3BA42B3729BDECD100A05D40 /* QuakeDetailMap.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BA42B3629BDECD100A05D40 /* QuakeDetailMap.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -78,6 +79,7 @@
 		3BA42B3029BDD37800A05D40 /* NSCache+Subscript.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "NSCache+Subscript.swift"; sourceTree = "<group>"; };
 		3BA42B3229BDE6D500A05D40 /* Quake+Preview.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Quake+Preview.swift"; sourceTree = "<group>"; };
 		3BA42B3429BDE79200A05D40 /* QuakeDetail.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuakeDetail.swift; sourceTree = "<group>"; };
+		3BA42B3629BDECD100A05D40 /* QuakeDetailMap.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuakeDetailMap.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -188,6 +190,7 @@
 				3BA42B1929BDA01300A05D40 /* QuakeRow.swift */,
 				3BA42B1B29BDA04900A05D40 /* QuakeMagnitude.swift */,
 				3BA42B3429BDE79200A05D40 /* QuakeDetail.swift */,
+				3BA42B3629BDECD100A05D40 /* QuakeDetailMap.swift */,
 				3BA42B1F29BDA0B400A05D40 /* ToolbarContent */,
 			);
 			path = View;
@@ -343,6 +346,7 @@
 				3BA42B1129BD9AD000A05D40 /* HTTPDataDownloader.swift in Sources */,
 				3BA42B1329BD9B8500A05D40 /* QuakeClient.swift in Sources */,
 				3BA42B1A29BDA01300A05D40 /* QuakeRow.swift in Sources */,
+				3BA42B3729BDECD100A05D40 /* QuakeDetailMap.swift in Sources */,
 				3BA42AFC29BCBFAB00A05D40 /* QuakeError.swift in Sources */,
 				3BA42B1829BD9FC300A05D40 /* Quakes.swift in Sources */,
 				3BA42B2F29BDD33000A05D40 /* CacheEntryObject.swift in Sources */,
