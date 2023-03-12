@@ -2,6 +2,7 @@ import Foundation
 
 /// A class to fetch and cache data from the remote server.
 class QuakeClient {
+    private let quakeCache: NSCache<NSString, CacheEntryObject> = NSCache()
 
     var quakes: [Quake] {
         get async throws {
