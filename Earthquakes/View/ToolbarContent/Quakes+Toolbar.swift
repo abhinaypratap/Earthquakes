@@ -9,7 +9,7 @@ extension Quakes {
             if editMode == .active {
                 SelectButton(mode: $selectMode) {
                     if selectMode.isActive {
-                        selection = Set(quakes.map { $0.code })
+                        selection = Set(provider.quakes.map { $0.code })
                     } else {
                         selection = []
                     }
@@ -26,14 +26,14 @@ extension Quakes {
         ToolbarItemGroup(placement: .bottomBar) {
             RefreshButton {
                 Task {
-                    fetchQuakes()
+                    await fetchQuakes()
                 }
             }
             Spacer()
             ToolbarStatus(
                 isLoading: isLoading,
                 lastUpdated: lastUpdated,
-                quakesCount: quakes.count
+                quakesCount: provider.quakes.count
             )
             Spacer()
             if editMode == .active {
