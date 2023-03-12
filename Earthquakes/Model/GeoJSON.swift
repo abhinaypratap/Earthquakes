@@ -1,6 +1,6 @@
-/// A structure for decoding quake data.
 import Foundation
 
+/// A structure for decoding quake data.
 struct GeoJSON: Decodable {
 
     private enum RootCodingKeys: String, CodingKey {
