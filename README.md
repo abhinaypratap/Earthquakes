@@ -3,6 +3,7 @@
 # Earthquakes
 
 - [Project](https://github.com/abhinaypratap/Earthquakes)
+- [Documentation](https://www.abhinaypratap.com/d/earthquakes/documentation/earthquakes/)
 - Frameworks
     - Foundation
     - SwiftUI
