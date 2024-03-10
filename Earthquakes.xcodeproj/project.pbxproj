@@ -80,6 +80,8 @@
 		3BA42B3229BDE6D500A05D40 /* Quake+Preview.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Quake+Preview.swift"; sourceTree = "<group>"; };
 		3BA42B3429BDE79200A05D40 /* QuakeDetail.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuakeDetail.swift; sourceTree = "<group>"; };
 		3BA42B3629BDECD100A05D40 /* QuakeDetailMap.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuakeDetailMap.swift; sourceTree = "<group>"; };
+		3BB3B7332B9D59C00093EDF2 /* Info.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = Info.xcconfig; sourceTree = "<group>"; };
+		3BB3B7352B9D5B920093EDF2 /* UnitTests.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = UnitTests.xcconfig; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -104,6 +106,7 @@
 			isa = PBXGroup;
 			children = (
 				3B44030729A2A30A003CAB42 /* README.md */,
+				3BB3B7342B9D5A050093EDF2 /* Configuration */,
 				3B4402F829A2A2F2003CAB42 /* Earthquakes */,
 				3BA42B0229BCC2DE00A05D40 /* EarthquakesTests */,
 				3B4402F729A2A2F2003CAB42 /* Products */,
@@ -215,6 +218,15 @@
 				3BA42B2A29BDA10C00A05D40 /* ToolbarStatus.swift */,
 			);
 			path = ToolbarContent;
+			sourceTree = "<group>";
+		};
+		3BB3B7342B9D5A050093EDF2 /* Configuration */ = {
+			isa = PBXGroup;
+			children = (
+				3BB3B7332B9D59C00093EDF2 /* Info.xcconfig */,
+				3BB3B7352B9D5B920093EDF2 /* UnitTests.xcconfig */,
+			);
+			path = Configuration;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -390,6 +402,7 @@
 /* Begin XCBuildConfiguration section */
 		3B44030229A2A2F5003CAB42 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3BB3B7332B9D59C00093EDF2 /* Info.xcconfig */;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				CLANG_ANALYZER_NONNULL = YES;
@@ -450,6 +463,7 @@
 		};
 		3B44030329A2A2F5003CAB42 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3BB3B7332B9D59C00093EDF2 /* Info.xcconfig */;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				CLANG_ANALYZER_NONNULL = YES;
@@ -504,13 +518,13 @@
 		};
 		3B44030529A2A2F5003CAB42 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3BB3B7332B9D59C00093EDF2 /* Info.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"Earthquakes/Preview Content\"";
-				DEVELOPMENT_TEAM = 372C6ZRL6X;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
@@ -524,7 +538,6 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.abhinaypratap.Earthquakes;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
 				SUPPORTS_MACCATALYST = NO;
@@ -537,13 +550,13 @@
 		};
 		3B44030629A2A2F5003CAB42 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3BB3B7332B9D59C00093EDF2 /* Info.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"Earthquakes/Preview Content\"";
-				DEVELOPMENT_TEAM = 372C6ZRL6X;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
@@ -557,7 +570,6 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.abhinaypratap.Earthquakes;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
 				SUPPORTS_MACCATALYST = NO;
@@ -570,36 +582,40 @@
 		};
 		3BA42B0829BCC2DE00A05D40 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3BB3B7352B9D5B920093EDF2 /* UnitTests.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = 372C6ZRL6X;
 				GENERATE_INFOPLIST_FILE = YES;
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.abhinaypratap.EarthquakesTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = NO;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Earthquakes.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Earthquakes";
 			};
 			name = Debug;
 		};
 		3BA42B0929BCC2DE00A05D40 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3BB3B7352B9D5B920093EDF2 /* UnitTests.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = 372C6ZRL6X;
 				GENERATE_INFOPLIST_FILE = YES;
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.abhinaypratap.EarthquakesTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = NO;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Earthquakes.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Earthquakes";
 			};
 			name = Release;
